@@ -9,7 +9,7 @@ export class TravelController {
 
   @Post()
   create(@Body() createTravelDto: CreateTravelDto) {
-    return "Planifier un nouveau voyage";
+    return "Planifier un nouveau voyage ici";
   }
 
   @Get()
